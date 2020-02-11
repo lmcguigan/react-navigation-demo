@@ -22,9 +22,9 @@ export default class LoadingScreen extends Component {
     await delay();
     const token = await AsyncStorage.getItem('authToken');
     if (token) {
-      this.props.navigation.navigate('App');
+      //TODO: Navigate to the main application
     } else {
-      this.props.navigation.navigate('Authorization');
+      //TODO: Navigate to the login screen
     }
   };
   render() {

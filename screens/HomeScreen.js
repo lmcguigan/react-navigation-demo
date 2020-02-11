@@ -24,14 +24,16 @@ export default class HomeScreen extends Component {
           subheader="ACTIVE"
           list={data.user.games.active}
           openGame={content =>
-            this.props.navigation.navigate('GameDetail', {data: content})
+            //TODO: Navigate to the Game Detail, pass content as data
+            console.log('Should navigate', content)
           }
         />
         <GameList
           subheader="COMPLETED"
           list={data.user.games.completed}
           openGame={content =>
-            this.props.navigation.navigate('GameDetail', {data: content})
+            //TODO: Navigate to the Game Detail, pass content as data
+            console.log('Should navigate', content)
           }
         />
       </View>
