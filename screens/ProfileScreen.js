@@ -22,7 +22,7 @@ export default class ProfileScreen extends Component {
   }
   _signOut = async () => {
     await AsyncStorage.clear();
-    this.props.navigation.navigate('Authorization');
+    //TODO: Navigate back to Login
   };
   render() {
     const scores = [

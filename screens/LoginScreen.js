@@ -13,6 +13,7 @@ export default class LoginScreen extends Component {
     };
   }
   _authenticate = async (email, pw) => {
+    // This is just for demonstration purposes - don't do this in real life!
     if (email === 'lucy.mcguigan@gmail.com' && pw === 'bingo') {
       return 'DUMMY_AUTH_TOKEN';
     }
@@ -26,7 +27,7 @@ export default class LoginScreen extends Component {
     );
     if (authToken) {
       await AsyncStorage.setItem('authToken', authToken);
-      this.props.navigation.navigate('App');
+      //TODO: Navigate to the Main application
     } else {
       this.setState({
         error:
