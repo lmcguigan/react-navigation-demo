@@ -51,9 +51,8 @@ export default class CreateIntroScreen extends Component {
           <Button
             label="next"
             onPress={() =>
-              this.props.navigation.navigate('Values', {
-                size: this.state.chosenOption,
-              })
+              // TODO: Navigate to values screen and pass the size from state
+              console.log('should navigate to values')
             }
           />
         </View>

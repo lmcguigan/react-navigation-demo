@@ -9,16 +9,16 @@ import {
   AlertModal,
 } from '../components';
 import {getUpdatedCard, getNewBingoArray} from '../utilities/utilities';
+import json from '../assets/data/data.json';
 
 export default class CreatePreviewScreen extends Component {
   constructor(props) {
     super(props);
     this.state = {
       title: '',
-      values: getNewBingoArray(
-        props.navigation.getParam('values'),
-        props.navigation.getParam('size'),
-      ),
+      //TODO: Replace this to use values and size property from params
+      //Use the getNewBingoArray method
+      values: json.user.games.active[2].card,
       modalVisible: false,
     };
   }
@@ -49,7 +49,7 @@ export default class CreatePreviewScreen extends Component {
             if (title === '') {
               this.setState({modalVisible: true});
             } else {
-              this.props.navigation.navigate('Invite');
+              //TODO: Navigate to the invite screen
             }
           }}
         />

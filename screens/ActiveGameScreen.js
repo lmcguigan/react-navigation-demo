@@ -3,12 +3,14 @@ import {View, StyleSheet} from 'react-native';
 import {styles} from './styles';
 import {BingoCard, BingoText} from '../components';
 import {getUpdatedCard} from '../utilities/utilities';
+import json from '../assets/data/data.json';
 
 export default class ActiveGameScreen extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      card: this.props.navigation.getParam('data').card,
+      //TODO: Replace this with card property from data param
+      card: json.user.games.active[2].card,
     };
   }
   _updateCard = index => {
@@ -16,8 +18,8 @@ export default class ActiveGameScreen extends Component {
     this.setState({card: getUpdatedCard(index, this.state.card)});
   };
   render() {
-    const data = this.props.navigation.getParam('data');
-    console.log(this.state.card);
+    //TODO: Replace this with data param from navigation
+    const data = json.user.games.active[2];
     return (
       <View style={[styles.screenContainer, styles.screenHorizontalPadding]}>
         <BingoText content={data.title} style="h2" textAlign="center" />

@@ -38,7 +38,8 @@ export default class CreateValuesScreen extends Component {
     }
   }
   _onPressNext = () => {
-    const size = this.props.navigation.getParam('size');
+    //TODO: Replace hardcoded value with value from navigation params
+    const size = 3;
     const min = getMinimumAmount(size);
     if (this.state.items.length < min) {
       this.setState({
@@ -46,11 +47,7 @@ export default class CreateValuesScreen extends Component {
         warningModalContent: `You will need to input at least ${min} values for a ${size}x${size} card.`,
       });
     } else {
-      this.props.navigation.navigate('Preview', {
-        values: this.state.items,
-        size: size,
-        title: 'looks good?',
-      });
+      //TODO: Navigate to preview screen, passing values, size, and title
     }
   };
   render() {

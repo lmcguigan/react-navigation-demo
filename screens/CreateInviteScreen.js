@@ -37,7 +37,7 @@ export default class CreateInviteScreen extends Component {
   }
   _finish = () => {
     this.setState({loadingModalVisible: false});
-    this.props.navigation.navigate('Home');
+    //TODO: Navigate back home
   };
   render() {
     return (
