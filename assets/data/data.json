@@ -1,0 +1,201 @@
+{
+  "items": [
+    "doctor uses sonic screwdriver",
+    "a dalek says exterminate",
+    "someone says bigger on the inside",
+    "doctor gets excited over a human thing",
+    "cybermen appear",
+    "time gets rewritten",
+    "someone dies",
+    "tardis sound",
+    "companion gets separated in a strange place"
+  ],
+  "user": {
+      "firstName": "Lucy",
+      "lastName": "McGuigan",
+      "emailAddress": "lucy.mcguigan@gmail.com",
+      "statistics": {
+        "won": 3,
+        "created": 2,
+        "played": 5
+      },
+      "games" : {
+        "active" : [
+          {
+            "id": "56749",
+            "creator": "Jolene F.",
+            "title": "birds in the wild",
+            "card": [
+              {
+                "value": "red-tailed hawk",
+                "marked": false
+              },
+              {
+                "value": "barn swallow",
+                "marked": false
+              },
+              {
+                "value": "great blue heron",
+                "marked": false
+              },
+              {
+                "value": "killdeer",
+                "marked": false
+              },
+              {
+                "value": "cardinal",
+                "marked": false
+              },
+              {
+                "value": "hummingbird",
+                "marked": false
+              },
+              {
+                "value": "bluejay",
+                "marked": false
+              },
+              {
+                "value": "warbler",
+                "marked": false
+              },
+              {
+                "value": "titmouse",
+                "marked": false
+              }
+            ]
+          },
+          {
+            "id": "12345",
+            "creator": "Joseph S.",
+            "title": "corporate buzzwords",
+            "card": [
+              {
+                "value": "synergy",
+                "marked": false
+              },
+              {
+                "value": "KPIs",
+                "marked": false
+              },
+              {
+                "value": "circle back",
+                "marked": false
+              },
+              {
+                "value": "bleeding edge",
+                "marked": false
+              },
+              {
+                "value": "paradigm shift",
+                "marked": false
+              },
+              {
+                "value": "take this offline",
+                "marked": false
+              },
+              {
+                "value": "scalable",
+                "marked": false
+              },
+              {
+                "value": "10,000 foot view",
+                "marked": false
+              },
+              {
+                "value": "value-added",
+                "marked": false
+              }
+            ]
+          },
+          {
+            "id": "90210",
+            "creator": "Jonathan C.",
+            "title": "doctor who",
+            "card": [
+              {
+                "value": "uses sonic screwdriver",
+                "marked": false
+              },
+              {
+                "value": "a dalek says exterminate",
+                "marked": false
+              },
+              {
+                "value": "bigger on the inside",
+                "marked": false
+              },
+              {
+                "value": "doctor gets excited over a human thing",
+                "marked": false
+              },
+              {
+                "value": "sontaren",
+                "marked": false
+              },
+              {
+                "value": "time gets rewritten",
+                "marked": false
+              },
+              {
+                "value": "someone dies",
+                "marked": false
+              },
+              {
+                "value": "tardis sound",
+                "marked": false
+              },
+              {
+                "value": "companion gets separated in a strange place",
+                "marked": false
+              }
+            ]
+          }
+        ],
+        "completed" : [
+          {
+            "id": "78912",
+            "creator": "Chris D.",
+            "title": "conference call",
+            "card": [
+              {
+                "value": "can you hear me?",
+                "marked": false
+              },
+              {
+                "value": "feedback from microphone",
+                "marked": false
+              },
+              {
+                "value": "typing sound",
+                "marked": false
+              },
+              {
+                "value": "could you say that one more time?",
+                "marked": false
+              },
+              {
+                "value": "who are we missing?",
+                "marked": false
+              },
+              {
+                "value": "can everyone see my screen?",
+                "marked": false
+              },
+              {
+                "value": "everyone make sure you're on mute",
+                "marked": false
+              },
+              {
+                "value": "i think there's a sound delay",
+                "marked": false
+              },
+              {
+                "value": "sorry, was on mute",
+                "marked": false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  }
